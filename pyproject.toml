@@ -5,9 +5,12 @@ description = "A production-grade URL shortener"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "alembic>=1.18.4",
     "fastapi>=0.115.0",
+    "psycopg2-binary>=2.9.12",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.0.0",
     "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.51",
     "uvicorn>=0.30.0",
 ]
